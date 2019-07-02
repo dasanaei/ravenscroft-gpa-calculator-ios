@@ -15,6 +15,79 @@
 		CDEE289D1E5E8B67008C5264 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDEE289B1E5E8B67008C5264 /* LaunchScreen.storyboard */; };
 		CDEE28A81E5E8B68008C5264 /* Ravenscroft_GPA_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEE28A71E5E8B68008C5264 /* Ravenscroft_GPA_CalculatorTests.swift */; };
 		CDEE28B31E5E8B68008C5264 /* Ravenscroft_GPA_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEE28B21E5E8B68008C5264 /* Ravenscroft_GPA_CalculatorUITests.swift */; };
+		CDEE28C21E5E8DE1008C5264 /* EditClass.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDEE28C01E5E8DE1008C5264 /* EditClass.storyboard */; };
+		CDEE28C41E5E8DFD008C5264 /* EditClassesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEE28C31E5E8DFD008C5264 /* EditClassesViewController.swift */; };
+		CDEE28C71E5E8FCB008C5264 /* About.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDEE28C51E5E8FCB008C5264 /* About.storyboard */; };
+		CDEE28CB1E5E913A008C5264 /* ViewControllertest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEE28CA1E5E913A008C5264 /* ViewControllertest.swift */; };
+		CDEE28CD1E60A42D008C5264 /* MyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEE28CC1E60A42D008C5264 /* MyButton.swift */; };
+		CDEE28CF1E60A5EF008C5264 /* MyTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEE28CE1E60A5EF008C5264 /* MyTabBarController.swift */; };
+		CDEE28D11E60ACFC008C5264 /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEE28D01E60ACFC008C5264 /* TabBarVC.swift */; };
+		CDEE28D31E60BCD9008C5264 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEE28D21E60BCD9008C5264 /* Helper.swift */; };
+		CDEE28EE1E611425008C5264 /* IQNSArray+Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEE28D81E611425008C5264 /* IQNSArray+Sort.swift */; };
+		CDEE28EF1E611425008C5264 /* IQUIScrollView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEE28D91E611425008C5264 /* IQUIScrollView+Additions.swift */; };
+		CDEE28F01E611425008C5264 /* IQUITextFieldView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEE28DA1E611425008C5264 /* IQUITextFieldView+Additions.swift */; };
+		CDEE28F11E611425008C5264 /* IQUIView+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEE28DB1E611425008C5264 /* IQUIView+Hierarchy.swift */; };
+		CDEE28F21E611425008C5264 /* IQUIViewController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEE28DC1E611425008C5264 /* IQUIViewController+Additions.swift */; };
+		CDEE28F31E611425008C5264 /* IQUIWindow+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEE28DD1E611425008C5264 /* IQUIWindow+Hierarchy.swift */; };
+		CDEE28F41E611425008C5264 /* IQKeyboardManagerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEE28DF1E611425008C5264 /* IQKeyboardManagerConstants.swift */; };
+		CDEE28F51E611425008C5264 /* IQKeyboardManagerConstantsInternal.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEE28E01E611425008C5264 /* IQKeyboardManagerConstantsInternal.swift */; };
+		CDEE28F61E611425008C5264 /* IQKeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEE28E11E611425008C5264 /* IQKeyboardManager.swift */; };
+		CDEE28F71E611425008C5264 /* IQKeyboardReturnKeyHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEE28E31E611425008C5264 /* IQKeyboardReturnKeyHandler.swift */; };
+		CDEE28F81E611425008C5264 /* IQTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEE28E51E611425008C5264 /* IQTextView.swift */; };
+		CDEE28F91E611425008C5264 /* IQBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEE28E71E611425008C5264 /* IQBarButtonItem.swift */; };
+		CDEE28FA1E611425008C5264 /* IQPreviousNextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEE28E81E611425008C5264 /* IQPreviousNextView.swift */; };
+		CDEE28FB1E611425008C5264 /* IQTitleBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEE28E91E611425008C5264 /* IQTitleBarButtonItem.swift */; };
+		CDEE28FC1E611425008C5264 /* IQToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEE28EA1E611425008C5264 /* IQToolbar.swift */; };
+		CDEE28FD1E611425008C5264 /* IQUIView+IQKeyboardToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEE28EB1E611425008C5264 /* IQUIView+IQKeyboardToolbar.swift */; };
+		CDEE28FE1E611425008C5264 /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CDEE28ED1E611425008C5264 /* IQKeyboardManager.bundle */; };
+		CDEE29001E617084008C5264 /* GPACalc.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEE28FF1E617084008C5264 /* GPACalc.swift */; };
+		CDEE293E1E62BEF5008C5264 /* ic_launcher.png in Resources */ = {isa = PBXBuildFile; fileRef = CDEE29081E62BEF4008C5264 /* ic_launcher.png */; };
+		CDEE293F1E62BEF5008C5264 /* ic_launcher.png in Resources */ = {isa = PBXBuildFile; fileRef = CDEE290A1E62BEF4008C5264 /* ic_launcher.png */; };
+		CDEE29401E62BEF5008C5264 /* ic_launcher.png in Resources */ = {isa = PBXBuildFile; fileRef = CDEE290C1E62BEF4008C5264 /* ic_launcher.png */; };
+		CDEE29411E62BEF5008C5264 /* ic_launcher.png in Resources */ = {isa = PBXBuildFile; fileRef = CDEE290E1E62BEF4008C5264 /* ic_launcher.png */; };
+		CDEE29421E62BEF5008C5264 /* ic_launcher.png in Resources */ = {isa = PBXBuildFile; fileRef = CDEE29101E62BEF4008C5264 /* ic_launcher.png */; };
+		CDEE29431E62BEF5008C5264 /* ic_launcher.png in Resources */ = {isa = PBXBuildFile; fileRef = CDEE29121E62BEF4008C5264 /* ic_launcher.png */; };
+		CDEE29441E62BEF5008C5264 /* playstore-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CDEE29131E62BEF4008C5264 /* playstore-icon.png */; };
+		CDEE29451E62BEF5008C5264 /* icon-messages-app-27x20@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDEE29151E62BEF4008C5264 /* icon-messages-app-27x20@1x.png */; };
+		CDEE29461E62BEF5008C5264 /* icon-messages-app-27x20@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDEE29161E62BEF4008C5264 /* icon-messages-app-27x20@2x.png */; };
+		CDEE29471E62BEF5008C5264 /* icon-messages-app-27x20@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDEE29171E62BEF4008C5264 /* icon-messages-app-27x20@3x.png */; };
+		CDEE29481E62BEF5008C5264 /* icon-messages-app-iPadAir-67x50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDEE29181E62BEF4008C5264 /* icon-messages-app-iPadAir-67x50@2x.png */; };
+		CDEE29491E62BEF5008C5264 /* icon-messages-app-iPadAir-74x55@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDEE29191E62BEF4008C5264 /* icon-messages-app-iPadAir-74x55@2x.png */; };
+		CDEE294A1E62BEF5008C5264 /* icon-messages-app-iPhone-60x45@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDEE291A1E62BEF4008C5264 /* icon-messages-app-iPhone-60x45@1x.png */; };
+		CDEE294B1E62BEF5008C5264 /* icon-messages-app-iPhone-60x45@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDEE291B1E62BEF4008C5264 /* icon-messages-app-iPhone-60x45@2x.png */; };
+		CDEE294C1E62BEF5008C5264 /* icon-messages-app-iPhone-60x45@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDEE291C1E62BEF5008C5264 /* icon-messages-app-iPhone-60x45@3x.png */; };
+		CDEE294D1E62BEF5008C5264 /* icon-messages-app-store-1024x768.png in Resources */ = {isa = PBXBuildFile; fileRef = CDEE291D1E62BEF5008C5264 /* icon-messages-app-store-1024x768.png */; };
+		CDEE294E1E62BEF5008C5264 /* icon-messages-transcript-32x24@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDEE291E1E62BEF5008C5264 /* icon-messages-transcript-32x24@1x.png */; };
+		CDEE294F1E62BEF5008C5264 /* icon-messages-transcript-32x24@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDEE291F1E62BEF5008C5264 /* icon-messages-transcript-32x24@2x.png */; };
+		CDEE29501E62BEF5008C5264 /* icon-messages-transcript-32x24@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDEE29201E62BEF5008C5264 /* icon-messages-transcript-32x24@3x.png */; };
+		CDEE29511E62BEF5008C5264 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = CDEE29231E62BEF5008C5264 /* Contents.json */; };
+		CDEE29521E62BEF5008C5264 /* Icon-App-20x20@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDEE29241E62BEF5008C5264 /* Icon-App-20x20@1x.png */; };
+		CDEE29531E62BEF5008C5264 /* Icon-App-20x20@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDEE29251E62BEF5008C5264 /* Icon-App-20x20@2x.png */; };
+		CDEE29541E62BEF5008C5264 /* Icon-App-20x20@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDEE29261E62BEF5008C5264 /* Icon-App-20x20@3x.png */; };
+		CDEE29551E62BEF5008C5264 /* Icon-App-29x29@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDEE29271E62BEF5008C5264 /* Icon-App-29x29@1x.png */; };
+		CDEE29561E62BEF5008C5264 /* Icon-App-29x29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDEE29281E62BEF5008C5264 /* Icon-App-29x29@2x.png */; };
+		CDEE29571E62BEF5008C5264 /* Icon-App-29x29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDEE29291E62BEF5008C5264 /* Icon-App-29x29@3x.png */; };
+		CDEE29581E62BEF5008C5264 /* Icon-App-40x40@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDEE292A1E62BEF5008C5264 /* Icon-App-40x40@1x.png */; };
+		CDEE29591E62BEF5008C5264 /* Icon-App-40x40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDEE292B1E62BEF5008C5264 /* Icon-App-40x40@2x.png */; };
+		CDEE295A1E62BEF5008C5264 /* Icon-App-40x40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDEE292C1E62BEF5008C5264 /* Icon-App-40x40@3x.png */; };
+		CDEE295B1E62BEF5008C5264 /* Icon-App-57x57@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDEE292D1E62BEF5008C5264 /* Icon-App-57x57@1x.png */; };
+		CDEE295C1E62BEF5008C5264 /* Icon-App-57x57@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDEE292E1E62BEF5008C5264 /* Icon-App-57x57@2x.png */; };
+		CDEE295D1E62BEF5008C5264 /* Icon-App-60x60@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDEE292F1E62BEF5008C5264 /* Icon-App-60x60@1x.png */; };
+		CDEE295E1E62BEF5008C5264 /* Icon-App-60x60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDEE29301E62BEF5008C5264 /* Icon-App-60x60@2x.png */; };
+		CDEE295F1E62BEF5008C5264 /* Icon-App-60x60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDEE29311E62BEF5008C5264 /* Icon-App-60x60@3x.png */; };
+		CDEE29601E62BEF5008C5264 /* Icon-App-72x72@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDEE29321E62BEF5008C5264 /* Icon-App-72x72@1x.png */; };
+		CDEE29611E62BEF5008C5264 /* Icon-App-72x72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDEE29331E62BEF5008C5264 /* Icon-App-72x72@2x.png */; };
+		CDEE29621E62BEF5008C5264 /* Icon-App-76x76@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDEE29341E62BEF5008C5264 /* Icon-App-76x76@1x.png */; };
+		CDEE29631E62BEF5008C5264 /* Icon-App-76x76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDEE29351E62BEF5008C5264 /* Icon-App-76x76@2x.png */; };
+		CDEE29641E62BEF5008C5264 /* Icon-App-76x76@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDEE29361E62BEF5008C5264 /* Icon-App-76x76@3x.png */; };
+		CDEE29651E62BEF5008C5264 /* Icon-App-83.5x83.5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDEE29371E62BEF5008C5264 /* Icon-App-83.5x83.5@2x.png */; };
+		CDEE29661E62BEF5008C5264 /* Icon-Small-50x50@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDEE29381E62BEF5008C5264 /* Icon-Small-50x50@1x.png */; };
+		CDEE29671E62BEF5008C5264 /* Icon-Small-50x50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDEE29391E62BEF5008C5264 /* Icon-Small-50x50@2x.png */; };
+		CDEE29681E62BEF5008C5264 /* iTunesArtwork@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDEE293A1E62BEF5008C5264 /* iTunesArtwork@1x.png */; };
+		CDEE29691E62BEF5008C5264 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDEE293B1E62BEF5008C5264 /* iTunesArtwork@2x.png */; };
+		CDEE296A1E62BEF5008C5264 /* iTunesArtwork@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDEE293C1E62BEF5008C5264 /* iTunesArtwork@3x.png */; };
+		CDEE296B1E62BEF5008C5264 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = CDEE293D1E62BEF5008C5264 /* README.md */; };
+		CDEE29821E639C18008C5264 /* cumGPA.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEE29811E639C18008C5264 /* cumGPA.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +122,81 @@
 		CDEE28AE1E5E8B68008C5264 /* Ravenscroft GPA CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ravenscroft GPA CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDEE28B21E5E8B68008C5264 /* Ravenscroft_GPA_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ravenscroft_GPA_CalculatorUITests.swift; sourceTree = "<group>"; };
 		CDEE28B41E5E8B68008C5264 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDEE28C11E5E8DE1008C5264 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/EditClass.storyboard; sourceTree = "<group>"; };
+		CDEE28C31E5E8DFD008C5264 /* EditClassesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditClassesViewController.swift; sourceTree = "<group>"; };
+		CDEE28C61E5E8FCB008C5264 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/About.storyboard; sourceTree = "<group>"; };
+		CDEE28CA1E5E913A008C5264 /* ViewControllertest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllertest.swift; sourceTree = "<group>"; };
+		CDEE28CC1E60A42D008C5264 /* MyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyButton.swift; sourceTree = "<group>"; };
+		CDEE28CE1E60A5EF008C5264 /* MyTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTabBarController.swift; sourceTree = "<group>"; };
+		CDEE28D01E60ACFC008C5264 /* TabBarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
+		CDEE28D21E60BCD9008C5264 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		CDEE28D81E611425008C5264 /* IQNSArray+Sort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQNSArray+Sort.swift"; sourceTree = "<group>"; };
+		CDEE28D91E611425008C5264 /* IQUIScrollView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIScrollView+Additions.swift"; sourceTree = "<group>"; };
+		CDEE28DA1E611425008C5264 /* IQUITextFieldView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUITextFieldView+Additions.swift"; sourceTree = "<group>"; };
+		CDEE28DB1E611425008C5264 /* IQUIView+Hierarchy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIView+Hierarchy.swift"; sourceTree = "<group>"; };
+		CDEE28DC1E611425008C5264 /* IQUIViewController+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIViewController+Additions.swift"; sourceTree = "<group>"; };
+		CDEE28DD1E611425008C5264 /* IQUIWindow+Hierarchy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIWindow+Hierarchy.swift"; sourceTree = "<group>"; };
+		CDEE28DF1E611425008C5264 /* IQKeyboardManagerConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManagerConstants.swift; sourceTree = "<group>"; };
+		CDEE28E01E611425008C5264 /* IQKeyboardManagerConstantsInternal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManagerConstantsInternal.swift; sourceTree = "<group>"; };
+		CDEE28E11E611425008C5264 /* IQKeyboardManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManager.swift; sourceTree = "<group>"; };
+		CDEE28E21E611425008C5264 /* IQKeyboardManagerSwift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerSwift.h; sourceTree = "<group>"; };
+		CDEE28E31E611425008C5264 /* IQKeyboardReturnKeyHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardReturnKeyHandler.swift; sourceTree = "<group>"; };
+		CDEE28E51E611425008C5264 /* IQTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQTextView.swift; sourceTree = "<group>"; };
+		CDEE28E71E611425008C5264 /* IQBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQBarButtonItem.swift; sourceTree = "<group>"; };
+		CDEE28E81E611425008C5264 /* IQPreviousNextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQPreviousNextView.swift; sourceTree = "<group>"; };
+		CDEE28E91E611425008C5264 /* IQTitleBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQTitleBarButtonItem.swift; sourceTree = "<group>"; };
+		CDEE28EA1E611425008C5264 /* IQToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQToolbar.swift; sourceTree = "<group>"; };
+		CDEE28EB1E611425008C5264 /* IQUIView+IQKeyboardToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIView+IQKeyboardToolbar.swift"; sourceTree = "<group>"; };
+		CDEE28ED1E611425008C5264 /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IQKeyboardManager.bundle; sourceTree = "<group>"; };
+		CDEE28FF1E617084008C5264 /* GPACalc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPACalc.swift; sourceTree = "<group>"; };
+		CDEE29081E62BEF4008C5264 /* ic_launcher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_launcher.png; sourceTree = "<group>"; };
+		CDEE290A1E62BEF4008C5264 /* ic_launcher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_launcher.png; sourceTree = "<group>"; };
+		CDEE290C1E62BEF4008C5264 /* ic_launcher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_launcher.png; sourceTree = "<group>"; };
+		CDEE290E1E62BEF4008C5264 /* ic_launcher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_launcher.png; sourceTree = "<group>"; };
+		CDEE29101E62BEF4008C5264 /* ic_launcher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_launcher.png; sourceTree = "<group>"; };
+		CDEE29121E62BEF4008C5264 /* ic_launcher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_launcher.png; sourceTree = "<group>"; };
+		CDEE29131E62BEF4008C5264 /* playstore-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "playstore-icon.png"; sourceTree = "<group>"; };
+		CDEE29151E62BEF4008C5264 /* icon-messages-app-27x20@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-messages-app-27x20@1x.png"; sourceTree = "<group>"; };
+		CDEE29161E62BEF4008C5264 /* icon-messages-app-27x20@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-messages-app-27x20@2x.png"; sourceTree = "<group>"; };
+		CDEE29171E62BEF4008C5264 /* icon-messages-app-27x20@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-messages-app-27x20@3x.png"; sourceTree = "<group>"; };
+		CDEE29181E62BEF4008C5264 /* icon-messages-app-iPadAir-67x50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-messages-app-iPadAir-67x50@2x.png"; sourceTree = "<group>"; };
+		CDEE29191E62BEF4008C5264 /* icon-messages-app-iPadAir-74x55@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-messages-app-iPadAir-74x55@2x.png"; sourceTree = "<group>"; };
+		CDEE291A1E62BEF4008C5264 /* icon-messages-app-iPhone-60x45@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-messages-app-iPhone-60x45@1x.png"; sourceTree = "<group>"; };
+		CDEE291B1E62BEF4008C5264 /* icon-messages-app-iPhone-60x45@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-messages-app-iPhone-60x45@2x.png"; sourceTree = "<group>"; };
+		CDEE291C1E62BEF5008C5264 /* icon-messages-app-iPhone-60x45@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-messages-app-iPhone-60x45@3x.png"; sourceTree = "<group>"; };
+		CDEE291D1E62BEF5008C5264 /* icon-messages-app-store-1024x768.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-messages-app-store-1024x768.png"; sourceTree = "<group>"; };
+		CDEE291E1E62BEF5008C5264 /* icon-messages-transcript-32x24@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-messages-transcript-32x24@1x.png"; sourceTree = "<group>"; };
+		CDEE291F1E62BEF5008C5264 /* icon-messages-transcript-32x24@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-messages-transcript-32x24@2x.png"; sourceTree = "<group>"; };
+		CDEE29201E62BEF5008C5264 /* icon-messages-transcript-32x24@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-messages-transcript-32x24@3x.png"; sourceTree = "<group>"; };
+		CDEE29231E62BEF5008C5264 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		CDEE29241E62BEF5008C5264 /* Icon-App-20x20@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@1x.png"; sourceTree = "<group>"; };
+		CDEE29251E62BEF5008C5264 /* Icon-App-20x20@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@2x.png"; sourceTree = "<group>"; };
+		CDEE29261E62BEF5008C5264 /* Icon-App-20x20@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@3x.png"; sourceTree = "<group>"; };
+		CDEE29271E62BEF5008C5264 /* Icon-App-29x29@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@1x.png"; sourceTree = "<group>"; };
+		CDEE29281E62BEF5008C5264 /* Icon-App-29x29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@2x.png"; sourceTree = "<group>"; };
+		CDEE29291E62BEF5008C5264 /* Icon-App-29x29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@3x.png"; sourceTree = "<group>"; };
+		CDEE292A1E62BEF5008C5264 /* Icon-App-40x40@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@1x.png"; sourceTree = "<group>"; };
+		CDEE292B1E62BEF5008C5264 /* Icon-App-40x40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@2x.png"; sourceTree = "<group>"; };
+		CDEE292C1E62BEF5008C5264 /* Icon-App-40x40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@3x.png"; sourceTree = "<group>"; };
+		CDEE292D1E62BEF5008C5264 /* Icon-App-57x57@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-57x57@1x.png"; sourceTree = "<group>"; };
+		CDEE292E1E62BEF5008C5264 /* Icon-App-57x57@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-57x57@2x.png"; sourceTree = "<group>"; };
+		CDEE292F1E62BEF5008C5264 /* Icon-App-60x60@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-60x60@1x.png"; sourceTree = "<group>"; };
+		CDEE29301E62BEF5008C5264 /* Icon-App-60x60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-60x60@2x.png"; sourceTree = "<group>"; };
+		CDEE29311E62BEF5008C5264 /* Icon-App-60x60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-60x60@3x.png"; sourceTree = "<group>"; };
+		CDEE29321E62BEF5008C5264 /* Icon-App-72x72@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-72x72@1x.png"; sourceTree = "<group>"; };
+		CDEE29331E62BEF5008C5264 /* Icon-App-72x72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-72x72@2x.png"; sourceTree = "<group>"; };
+		CDEE29341E62BEF5008C5264 /* Icon-App-76x76@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-76x76@1x.png"; sourceTree = "<group>"; };
+		CDEE29351E62BEF5008C5264 /* Icon-App-76x76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-76x76@2x.png"; sourceTree = "<group>"; };
+		CDEE29361E62BEF5008C5264 /* Icon-App-76x76@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-76x76@3x.png"; sourceTree = "<group>"; };
+		CDEE29371E62BEF5008C5264 /* Icon-App-83.5x83.5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-83.5x83.5@2x.png"; sourceTree = "<group>"; };
+		CDEE29381E62BEF5008C5264 /* Icon-Small-50x50@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50x50@1x.png"; sourceTree = "<group>"; };
+		CDEE29391E62BEF5008C5264 /* Icon-Small-50x50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50x50@2x.png"; sourceTree = "<group>"; };
+		CDEE293A1E62BEF5008C5264 /* iTunesArtwork@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@1x.png"; sourceTree = "<group>"; };
+		CDEE293B1E62BEF5008C5264 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+		CDEE293C1E62BEF5008C5264 /* iTunesArtwork@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@3x.png"; sourceTree = "<group>"; };
+		CDEE293D1E62BEF5008C5264 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CDEE296F1E62C93F008C5264 /* Ravenscroft GPA Calculator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Ravenscroft GPA Calculator.entitlements"; sourceTree = "<group>"; };
+		CDEE29811E639C18008C5264 /* cumGPA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cumGPA.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +231,7 @@
 				CDEE28A61E5E8B68008C5264 /* Ravenscroft GPA CalculatorTests */,
 				CDEE28B11E5E8B68008C5264 /* Ravenscroft GPA CalculatorUITests */,
 				CDEE288E1E5E8B67008C5264 /* Products */,
+				CDEE296C1E62C93F008C5264 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +248,25 @@
 		CDEE288F1E5E8B67008C5264 /* Ravenscroft GPA Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				CDEE296F1E62C93F008C5264 /* Ravenscroft GPA Calculator.entitlements */,
+				CDEE28D61E611425008C5264 /* IQKeyboardManagerSwift */,
 				CDEE28901E5E8B67008C5264 /* AppDelegate.swift */,
 				CDEE28921E5E8B67008C5264 /* FirstViewController.swift */,
 				CDEE28941E5E8B67008C5264 /* SecondViewController.swift */,
 				CDEE28961E5E8B67008C5264 /* Main.storyboard */,
+				CDEE28C01E5E8DE1008C5264 /* EditClass.storyboard */,
+				CDEE28C31E5E8DFD008C5264 /* EditClassesViewController.swift */,
+				CDEE28C51E5E8FCB008C5264 /* About.storyboard */,
+				CDEE28CA1E5E913A008C5264 /* ViewControllertest.swift */,
 				CDEE28991E5E8B67008C5264 /* Assets.xcassets */,
 				CDEE289B1E5E8B67008C5264 /* LaunchScreen.storyboard */,
 				CDEE289E1E5E8B67008C5264 /* Info.plist */,
+				CDEE28CC1E60A42D008C5264 /* MyButton.swift */,
+				CDEE28CE1E60A5EF008C5264 /* MyTabBarController.swift */,
+				CDEE28D01E60ACFC008C5264 /* TabBarVC.swift */,
+				CDEE28D21E60BCD9008C5264 /* Helper.swift */,
+				CDEE28FF1E617084008C5264 /* GPACalc.swift */,
+				CDEE29811E639C18008C5264 /* cumGPA.swift */,
 			);
 			path = "Ravenscroft GPA Calculator";
 			sourceTree = "<group>";
@@ -126,6 +287,214 @@
 				CDEE28B41E5E8B68008C5264 /* Info.plist */,
 			);
 			path = "Ravenscroft GPA CalculatorUITests";
+			sourceTree = "<group>";
+		};
+		CDEE28D61E611425008C5264 /* IQKeyboardManagerSwift */ = {
+			isa = PBXGroup;
+			children = (
+				CDEE29051E62BEF4008C5264 /* Untitled */,
+				CDEE28D71E611425008C5264 /* Categories */,
+				CDEE28DE1E611425008C5264 /* Constants */,
+				CDEE28E11E611425008C5264 /* IQKeyboardManager.swift */,
+				CDEE28E21E611425008C5264 /* IQKeyboardManagerSwift.h */,
+				CDEE28E31E611425008C5264 /* IQKeyboardReturnKeyHandler.swift */,
+				CDEE28E41E611425008C5264 /* IQTextView */,
+				CDEE28E61E611425008C5264 /* IQToolbar */,
+				CDEE28EC1E611425008C5264 /* Resources */,
+			);
+			name = IQKeyboardManagerSwift;
+			path = "../../../IQKeyboardManager-swift3/IQKeyboardManagerSwift";
+			sourceTree = "<group>";
+		};
+		CDEE28D71E611425008C5264 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				CDEE28D81E611425008C5264 /* IQNSArray+Sort.swift */,
+				CDEE28D91E611425008C5264 /* IQUIScrollView+Additions.swift */,
+				CDEE28DA1E611425008C5264 /* IQUITextFieldView+Additions.swift */,
+				CDEE28DB1E611425008C5264 /* IQUIView+Hierarchy.swift */,
+				CDEE28DC1E611425008C5264 /* IQUIViewController+Additions.swift */,
+				CDEE28DD1E611425008C5264 /* IQUIWindow+Hierarchy.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		CDEE28DE1E611425008C5264 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				CDEE28DF1E611425008C5264 /* IQKeyboardManagerConstants.swift */,
+				CDEE28E01E611425008C5264 /* IQKeyboardManagerConstantsInternal.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		CDEE28E41E611425008C5264 /* IQTextView */ = {
+			isa = PBXGroup;
+			children = (
+				CDEE28E51E611425008C5264 /* IQTextView.swift */,
+			);
+			path = IQTextView;
+			sourceTree = "<group>";
+		};
+		CDEE28E61E611425008C5264 /* IQToolbar */ = {
+			isa = PBXGroup;
+			children = (
+				CDEE28E71E611425008C5264 /* IQBarButtonItem.swift */,
+				CDEE28E81E611425008C5264 /* IQPreviousNextView.swift */,
+				CDEE28E91E611425008C5264 /* IQTitleBarButtonItem.swift */,
+				CDEE28EA1E611425008C5264 /* IQToolbar.swift */,
+				CDEE28EB1E611425008C5264 /* IQUIView+IQKeyboardToolbar.swift */,
+			);
+			path = IQToolbar;
+			sourceTree = "<group>";
+		};
+		CDEE28EC1E611425008C5264 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CDEE28ED1E611425008C5264 /* IQKeyboardManager.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CDEE29051E62BEF4008C5264 /* Untitled */ = {
+			isa = PBXGroup;
+			children = (
+				CDEE29061E62BEF4008C5264 /* android */,
+				CDEE29141E62BEF4008C5264 /* imessenger */,
+				CDEE29211E62BEF5008C5264 /* ios */,
+			);
+			name = Untitled;
+			path = ../../Untitled;
+			sourceTree = "<group>";
+		};
+		CDEE29061E62BEF4008C5264 /* android */ = {
+			isa = PBXGroup;
+			children = (
+				CDEE29071E62BEF4008C5264 /* mipmap-hdpi */,
+				CDEE29091E62BEF4008C5264 /* mipmap-ldpi */,
+				CDEE290B1E62BEF4008C5264 /* mipmap-mdpi */,
+				CDEE290D1E62BEF4008C5264 /* mipmap-xhdpi */,
+				CDEE290F1E62BEF4008C5264 /* mipmap-xxhdpi */,
+				CDEE29111E62BEF4008C5264 /* mipmap-xxxhdpi */,
+				CDEE29131E62BEF4008C5264 /* playstore-icon.png */,
+			);
+			path = android;
+			sourceTree = "<group>";
+		};
+		CDEE29071E62BEF4008C5264 /* mipmap-hdpi */ = {
+			isa = PBXGroup;
+			children = (
+				CDEE29081E62BEF4008C5264 /* ic_launcher.png */,
+			);
+			path = "mipmap-hdpi";
+			sourceTree = "<group>";
+		};
+		CDEE29091E62BEF4008C5264 /* mipmap-ldpi */ = {
+			isa = PBXGroup;
+			children = (
+				CDEE290A1E62BEF4008C5264 /* ic_launcher.png */,
+			);
+			path = "mipmap-ldpi";
+			sourceTree = "<group>";
+		};
+		CDEE290B1E62BEF4008C5264 /* mipmap-mdpi */ = {
+			isa = PBXGroup;
+			children = (
+				CDEE290C1E62BEF4008C5264 /* ic_launcher.png */,
+			);
+			path = "mipmap-mdpi";
+			sourceTree = "<group>";
+		};
+		CDEE290D1E62BEF4008C5264 /* mipmap-xhdpi */ = {
+			isa = PBXGroup;
+			children = (
+				CDEE290E1E62BEF4008C5264 /* ic_launcher.png */,
+			);
+			path = "mipmap-xhdpi";
+			sourceTree = "<group>";
+		};
+		CDEE290F1E62BEF4008C5264 /* mipmap-xxhdpi */ = {
+			isa = PBXGroup;
+			children = (
+				CDEE29101E62BEF4008C5264 /* ic_launcher.png */,
+			);
+			path = "mipmap-xxhdpi";
+			sourceTree = "<group>";
+		};
+		CDEE29111E62BEF4008C5264 /* mipmap-xxxhdpi */ = {
+			isa = PBXGroup;
+			children = (
+				CDEE29121E62BEF4008C5264 /* ic_launcher.png */,
+			);
+			path = "mipmap-xxxhdpi";
+			sourceTree = "<group>";
+		};
+		CDEE29141E62BEF4008C5264 /* imessenger */ = {
+			isa = PBXGroup;
+			children = (
+				CDEE29151E62BEF4008C5264 /* icon-messages-app-27x20@1x.png */,
+				CDEE29161E62BEF4008C5264 /* icon-messages-app-27x20@2x.png */,
+				CDEE29171E62BEF4008C5264 /* icon-messages-app-27x20@3x.png */,
+				CDEE29181E62BEF4008C5264 /* icon-messages-app-iPadAir-67x50@2x.png */,
+				CDEE29191E62BEF4008C5264 /* icon-messages-app-iPadAir-74x55@2x.png */,
+				CDEE291A1E62BEF4008C5264 /* icon-messages-app-iPhone-60x45@1x.png */,
+				CDEE291B1E62BEF4008C5264 /* icon-messages-app-iPhone-60x45@2x.png */,
+				CDEE291C1E62BEF5008C5264 /* icon-messages-app-iPhone-60x45@3x.png */,
+				CDEE291D1E62BEF5008C5264 /* icon-messages-app-store-1024x768.png */,
+				CDEE291E1E62BEF5008C5264 /* icon-messages-transcript-32x24@1x.png */,
+				CDEE291F1E62BEF5008C5264 /* icon-messages-transcript-32x24@2x.png */,
+				CDEE29201E62BEF5008C5264 /* icon-messages-transcript-32x24@3x.png */,
+			);
+			path = imessenger;
+			sourceTree = "<group>";
+		};
+		CDEE29211E62BEF5008C5264 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				CDEE29221E62BEF5008C5264 /* AppIcon.appiconset */,
+				CDEE293A1E62BEF5008C5264 /* iTunesArtwork@1x.png */,
+				CDEE293B1E62BEF5008C5264 /* iTunesArtwork@2x.png */,
+				CDEE293C1E62BEF5008C5264 /* iTunesArtwork@3x.png */,
+				CDEE293D1E62BEF5008C5264 /* README.md */,
+			);
+			path = ios;
+			sourceTree = "<group>";
+		};
+		CDEE29221E62BEF5008C5264 /* AppIcon.appiconset */ = {
+			isa = PBXGroup;
+			children = (
+				CDEE29231E62BEF5008C5264 /* Contents.json */,
+				CDEE29241E62BEF5008C5264 /* Icon-App-20x20@1x.png */,
+				CDEE29251E62BEF5008C5264 /* Icon-App-20x20@2x.png */,
+				CDEE29261E62BEF5008C5264 /* Icon-App-20x20@3x.png */,
+				CDEE29281E62BEF5008C5264 /* Icon-App-29x29@2x.png */,
+				CDEE29271E62BEF5008C5264 /* Icon-App-29x29@1x.png */,
+				CDEE29291E62BEF5008C5264 /* Icon-App-29x29@3x.png */,
+				CDEE292A1E62BEF5008C5264 /* Icon-App-40x40@1x.png */,
+				CDEE292B1E62BEF5008C5264 /* Icon-App-40x40@2x.png */,
+				CDEE292C1E62BEF5008C5264 /* Icon-App-40x40@3x.png */,
+				CDEE292D1E62BEF5008C5264 /* Icon-App-57x57@1x.png */,
+				CDEE292E1E62BEF5008C5264 /* Icon-App-57x57@2x.png */,
+				CDEE292F1E62BEF5008C5264 /* Icon-App-60x60@1x.png */,
+				CDEE29301E62BEF5008C5264 /* Icon-App-60x60@2x.png */,
+				CDEE29311E62BEF5008C5264 /* Icon-App-60x60@3x.png */,
+				CDEE29321E62BEF5008C5264 /* Icon-App-72x72@1x.png */,
+				CDEE29331E62BEF5008C5264 /* Icon-App-72x72@2x.png */,
+				CDEE29341E62BEF5008C5264 /* Icon-App-76x76@1x.png */,
+				CDEE29351E62BEF5008C5264 /* Icon-App-76x76@2x.png */,
+				CDEE29361E62BEF5008C5264 /* Icon-App-76x76@3x.png */,
+				CDEE29371E62BEF5008C5264 /* Icon-App-83.5x83.5@2x.png */,
+				CDEE29381E62BEF5008C5264 /* Icon-Small-50x50@1x.png */,
+				CDEE29391E62BEF5008C5264 /* Icon-Small-50x50@2x.png */,
+			);
+			path = AppIcon.appiconset;
+			sourceTree = "<group>";
+		};
+		CDEE296C1E62C93F008C5264 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,13 +560,18 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Competitive Coding Club";
 				TargetAttributes = {
 					CDEE288C1E5E8B67008C5264 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 54TTK9EZCH;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.InterAppAudio = {
+								enabled = 0;
+							};
+						};
 					};
 					CDEE28A21E5E8B68008C5264 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -218,6 +592,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -238,9 +613,57 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDEE29651E62BEF5008C5264 /* Icon-App-83.5x83.5@2x.png in Resources */,
+				CDEE29501E62BEF5008C5264 /* icon-messages-transcript-32x24@3x.png in Resources */,
+				CDEE29671E62BEF5008C5264 /* Icon-Small-50x50@2x.png in Resources */,
+				CDEE294D1E62BEF5008C5264 /* icon-messages-app-store-1024x768.png in Resources */,
+				CDEE296A1E62BEF5008C5264 /* iTunesArtwork@3x.png in Resources */,
+				CDEE29641E62BEF5008C5264 /* Icon-App-76x76@3x.png in Resources */,
+				CDEE29481E62BEF5008C5264 /* icon-messages-app-iPadAir-67x50@2x.png in Resources */,
+				CDEE294E1E62BEF5008C5264 /* icon-messages-transcript-32x24@1x.png in Resources */,
 				CDEE289D1E5E8B67008C5264 /* LaunchScreen.storyboard in Resources */,
+				CDEE29571E62BEF5008C5264 /* Icon-App-29x29@3x.png in Resources */,
+				CDEE29551E62BEF5008C5264 /* Icon-App-29x29@1x.png in Resources */,
+				CDEE29401E62BEF5008C5264 /* ic_launcher.png in Resources */,
+				CDEE29691E62BEF5008C5264 /* iTunesArtwork@2x.png in Resources */,
+				CDEE28C71E5E8FCB008C5264 /* About.storyboard in Resources */,
+				CDEE29601E62BEF5008C5264 /* Icon-App-72x72@1x.png in Resources */,
+				CDEE29511E62BEF5008C5264 /* Contents.json in Resources */,
+				CDEE28FE1E611425008C5264 /* IQKeyboardManager.bundle in Resources */,
+				CDEE295F1E62BEF5008C5264 /* Icon-App-60x60@3x.png in Resources */,
 				CDEE289A1E5E8B67008C5264 /* Assets.xcassets in Resources */,
+				CDEE29681E62BEF5008C5264 /* iTunesArtwork@1x.png in Resources */,
 				CDEE28981E5E8B67008C5264 /* Main.storyboard in Resources */,
+				CDEE29451E62BEF5008C5264 /* icon-messages-app-27x20@1x.png in Resources */,
+				CDEE29631E62BEF5008C5264 /* Icon-App-76x76@2x.png in Resources */,
+				CDEE29441E62BEF5008C5264 /* playstore-icon.png in Resources */,
+				CDEE295E1E62BEF5008C5264 /* Icon-App-60x60@2x.png in Resources */,
+				CDEE294A1E62BEF5008C5264 /* icon-messages-app-iPhone-60x45@1x.png in Resources */,
+				CDEE29471E62BEF5008C5264 /* icon-messages-app-27x20@3x.png in Resources */,
+				CDEE294C1E62BEF5008C5264 /* icon-messages-app-iPhone-60x45@3x.png in Resources */,
+				CDEE293E1E62BEF5008C5264 /* ic_launcher.png in Resources */,
+				CDEE295C1E62BEF5008C5264 /* Icon-App-57x57@2x.png in Resources */,
+				CDEE29541E62BEF5008C5264 /* Icon-App-20x20@3x.png in Resources */,
+				CDEE294F1E62BEF5008C5264 /* icon-messages-transcript-32x24@2x.png in Resources */,
+				CDEE29461E62BEF5008C5264 /* icon-messages-app-27x20@2x.png in Resources */,
+				CDEE29661E62BEF5008C5264 /* Icon-Small-50x50@1x.png in Resources */,
+				CDEE29431E62BEF5008C5264 /* ic_launcher.png in Resources */,
+				CDEE294B1E62BEF5008C5264 /* icon-messages-app-iPhone-60x45@2x.png in Resources */,
+				CDEE29421E62BEF5008C5264 /* ic_launcher.png in Resources */,
+				CDEE295A1E62BEF5008C5264 /* Icon-App-40x40@3x.png in Resources */,
+				CDEE295D1E62BEF5008C5264 /* Icon-App-60x60@1x.png in Resources */,
+				CDEE29531E62BEF5008C5264 /* Icon-App-20x20@2x.png in Resources */,
+				CDEE29591E62BEF5008C5264 /* Icon-App-40x40@2x.png in Resources */,
+				CDEE29491E62BEF5008C5264 /* icon-messages-app-iPadAir-74x55@2x.png in Resources */,
+				CDEE29611E62BEF5008C5264 /* Icon-App-72x72@2x.png in Resources */,
+				CDEE295B1E62BEF5008C5264 /* Icon-App-57x57@1x.png in Resources */,
+				CDEE29581E62BEF5008C5264 /* Icon-App-40x40@1x.png in Resources */,
+				CDEE29621E62BEF5008C5264 /* Icon-App-76x76@1x.png in Resources */,
+				CDEE29561E62BEF5008C5264 /* Icon-App-29x29@2x.png in Resources */,
+				CDEE29521E62BEF5008C5264 /* Icon-App-20x20@1x.png in Resources */,
+				CDEE28C21E5E8DE1008C5264 /* EditClass.storyboard in Resources */,
+				CDEE293F1E62BEF5008C5264 /* ic_launcher.png in Resources */,
+				CDEE29411E62BEF5008C5264 /* ic_launcher.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,9 +688,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDEE28CB1E5E913A008C5264 /* ViewControllertest.swift in Sources */,
 				CDEE28951E5E8B67008C5264 /* SecondViewController.swift in Sources */,
+				CDEE28F91E611425008C5264 /* IQBarButtonItem.swift in Sources */,
+				CDEE28C41E5E8DFD008C5264 /* EditClassesViewController.swift in Sources */,
+				CDEE28F11E611425008C5264 /* IQUIView+Hierarchy.swift in Sources */,
 				CDEE28911E5E8B67008C5264 /* AppDelegate.swift in Sources */,
+				CDEE28F71E611425008C5264 /* IQKeyboardReturnKeyHandler.swift in Sources */,
+				CDEE28EF1E611425008C5264 /* IQUIScrollView+Additions.swift in Sources */,
+				CDEE28FB1E611425008C5264 /* IQTitleBarButtonItem.swift in Sources */,
+				CDEE28EE1E611425008C5264 /* IQNSArray+Sort.swift in Sources */,
+				CDEE28F61E611425008C5264 /* IQKeyboardManager.swift in Sources */,
 				CDEE28931E5E8B67008C5264 /* FirstViewController.swift in Sources */,
+				CDEE28FC1E611425008C5264 /* IQToolbar.swift in Sources */,
+				CDEE28D31E60BCD9008C5264 /* Helper.swift in Sources */,
+				CDEE28F41E611425008C5264 /* IQKeyboardManagerConstants.swift in Sources */,
+				CDEE296B1E62BEF5008C5264 /* README.md in Sources */,
+				CDEE28F51E611425008C5264 /* IQKeyboardManagerConstantsInternal.swift in Sources */,
+				CDEE28CD1E60A42D008C5264 /* MyButton.swift in Sources */,
+				CDEE28FD1E611425008C5264 /* IQUIView+IQKeyboardToolbar.swift in Sources */,
+				CDEE28D11E60ACFC008C5264 /* TabBarVC.swift in Sources */,
+				CDEE28F21E611425008C5264 /* IQUIViewController+Additions.swift in Sources */,
+				CDEE28FA1E611425008C5264 /* IQPreviousNextView.swift in Sources */,
+				CDEE28CF1E60A5EF008C5264 /* MyTabBarController.swift in Sources */,
+				CDEE28F01E611425008C5264 /* IQUITextFieldView+Additions.swift in Sources */,
+				CDEE29821E639C18008C5264 /* cumGPA.swift in Sources */,
+				CDEE29001E617084008C5264 /* GPACalc.swift in Sources */,
+				CDEE28F31E611425008C5264 /* IQUIWindow+Hierarchy.swift in Sources */,
+				CDEE28F81E611425008C5264 /* IQTextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +767,22 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		CDEE28C01E5E8DE1008C5264 /* EditClass.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDEE28C11E5E8DE1008C5264 /* Base */,
+			);
+			name = EditClass.storyboard;
+			sourceTree = "<group>";
+		};
+		CDEE28C51E5E8FCB008C5264 /* About.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDEE28C61E5E8FCB008C5264 /* Base */,
+			);
+			name = About.storyboard;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -331,15 +795,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -381,15 +853,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -419,12 +899,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 54TTK9EZCH;
 				INFOPLIST_FILE = "Ravenscroft GPA Calculator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "CCC.Ravenscroft-GPA-Calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -432,12 +915,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 54TTK9EZCH;
 				INFOPLIST_FILE = "Ravenscroft GPA Calculator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "CCC.Ravenscroft-GPA-Calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -451,7 +937,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "CCC.Ravenscroft-GPA-CalculatorTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ravenscroft GPA Calculator.app/Ravenscroft GPA Calculator";
 			};
 			name = Debug;
@@ -466,7 +952,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "CCC.Ravenscroft-GPA-CalculatorTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ravenscroft GPA Calculator.app/Ravenscroft GPA Calculator";
 			};
 			name = Release;
@@ -480,7 +966,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "CCC.Ravenscroft-GPA-CalculatorUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 				TEST_TARGET_NAME = "Ravenscroft GPA Calculator";
 			};
 			name = Debug;
@@ -494,7 +980,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "CCC.Ravenscroft-GPA-CalculatorUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 				TEST_TARGET_NAME = "Ravenscroft GPA Calculator";
 			};
 			name = Release;
@@ -518,6 +1004,7 @@
 				CDEE28B91E5E8B68008C5264 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CDEE28BA1E5E8B68008C5264 /* Build configuration list for PBXNativeTarget "Ravenscroft GPA CalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +1013,7 @@
 				CDEE28BC1E5E8B68008C5264 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CDEE28BD1E5E8B68008C5264 /* Build configuration list for PBXNativeTarget "Ravenscroft GPA CalculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +1022,7 @@
 				CDEE28BF1E5E8B68008C5264 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

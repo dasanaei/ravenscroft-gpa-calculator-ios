@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="eXx-ul-AJX">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--About-->
+        <scene sceneID="89e-qu-MRN">
+            <objects>
+                <viewController id="y2u-Be-t2q" customClass="ViewControllertest" customModule="Ravenscroft_GPA_Calculator" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="C5D-KN-nYC"/>
+                        <viewControllerLayoutGuide type="bottom" id="70f-6y-MuD"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="u1d-8a-DCT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1120"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e5R-J9-QsX">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="1120"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="G1C-O1-vIT">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1100"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wcl-rJ-ufB">
+                                                <rect key="frame" x="16" y="8" width="343" height="101"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">Welcome to Ravenscroft's own GPA Calculator. This App was created by The Competitive Coding Club. Thank you for using, and good luck in your academic ventures.</string>
+                                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="17" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zjr-2O-VOM">
+                                                <rect key="frame" x="16" y="117" width="343" height="321"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">How it works: to calculate a GPA, each letter grade is assigned a number from 4.3 to 0. A sum of these numbers is found, and then divided by the amount of classes you take (average). This is your unweighted GPA. To find the weighted GPA (what Ravenscroft uses), you must add either .5 (honors credit) or 1.0 (AP credit) to the letter grade that is being bumped. To calculate the cumulative GPA, your previous GPA is multiplied by the number of semesters you have completed at Ravenscroft and then your new semester GPA is added. Then divide by the number of semesters completed plus one. This is a very complicated system, and we highly recommend just using our app. 
+</string>
+                                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="13" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DSh-RR-8sG">
+                                                <rect key="frame" x="16" y="446" width="343" height="212"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">DISCLAIMER: Due to Ravenscroft's complex GPA calculating algorithm (with quarters...) The semester and cumulative GPAs generated with our app are very slightly off (to the ten thousanths digit). This slight difference is negligible to most who simply want to know their GPA. Once again, please note that it is not a bug or glitch that the number generated does not exactly match what is written on the transcript, but it is still extremely close and very usefull.</string>
+                                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AML-UJ-J5V">
+                                                <rect key="frame" x="16" y="713" width="343" height="197"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">CREATED BY:
+
+President Dante Sanaei
+President Nathan Lamb
+Vice President Ray Karrenbaeur
+Vice President Andy Jiang           
+JD Sawyerr                                                         Ryan Gerard</string>
+                                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eQ3-47-4gg">
+                                                <rect key="frame" x="16" y="1025" width="343" height="60"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">************************************************
+Competative Coding Club 2017
+************************************************</string>
+                                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1100" id="C0Y-sr-Jgl"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="G1C-O1-vIT" secondAttribute="trailing" id="TAw-M6-k05"/>
+                                    <constraint firstAttribute="bottom" secondItem="G1C-O1-vIT" secondAttribute="bottom" id="fUc-6o-Fgi"/>
+                                    <constraint firstItem="G1C-O1-vIT" firstAttribute="top" secondItem="e5R-J9-QsX" secondAttribute="top" id="iwc-Nq-t0i"/>
+                                    <constraint firstItem="G1C-O1-vIT" firstAttribute="leading" secondItem="e5R-J9-QsX" secondAttribute="leading" id="rNi-se-mJh"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="G1C-O1-vIT" firstAttribute="width" secondItem="u1d-8a-DCT" secondAttribute="width" id="2nx-bd-u97"/>
+                            <constraint firstAttribute="trailing" secondItem="e5R-J9-QsX" secondAttribute="trailing" id="6HL-C5-BFh"/>
+                            <constraint firstItem="70f-6y-MuD" firstAttribute="top" secondItem="e5R-J9-QsX" secondAttribute="bottom" id="DYZ-SS-plo"/>
+                            <constraint firstItem="e5R-J9-QsX" firstAttribute="top" secondItem="u1d-8a-DCT" secondAttribute="top" id="f4K-Xd-RKv"/>
+                            <constraint firstItem="e5R-J9-QsX" firstAttribute="leading" secondItem="u1d-8a-DCT" secondAttribute="leading" id="g3Y-9e-Ha3"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="JAg-mK-AUE" appends="YES" id="TtZ-0s-X63"/>
+                        </connections>
+                    </view>
+                    <navigationItem key="navigationItem" title="About" id="bNL-MM-jVg">
+                        <barButtonItem key="leftBarButtonItem" title="Back" id="oVQ-E5-CPF">
+                            <color key="tintColor" red="0.83137254900000002" green="0.68627450980000004" blue="0.2156862745" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="alsoBack:" destination="y2u-Be-t2q" id="FII-sR-VH7"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="1120"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CYk-xk-TBc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <screenEdgePanGestureRecognizer minimumNumberOfTouches="1" id="JAg-mK-AUE">
+                    <connections>
+                        <action selector="backalso:" destination="y2u-Be-t2q" id="I7q-5f-EB7"/>
+                    </connections>
+                </screenEdgePanGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="908" y="-957.12143928035994"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="aso-DS-ft4">
+            <objects>
+                <viewController id="Ibb-LV-qfD" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ueq-JM-mva"/>
+                        <viewControllerLayoutGuide type="bottom" id="aXW-GH-yHm"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="QIW-vL-S3S">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LSL-JA-7o1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1605" y="-931"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="A1T-Cg-aX6">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="eXx-ul-AJX" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="lNQ-Jk-vri">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="y2u-Be-t2q" kind="relationship" relationship="rootViewController" id="Ryr-8y-pEH"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yrf-Hs-HvP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-31.199999999999999" y="-956.67166416791611"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="r26-mn-eKh">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Edit Classes-->
+        <scene sceneID="lzH-FO-aek">
+            <objects>
+                <viewController id="srW-aJ-xG9" customClass="EditClassesViewController" customModule="Ravenscroft_GPA_Calculator" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="veR-jt-28z"/>
+                        <viewControllerLayoutGuide type="bottom" id="4d6-sy-qol"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zd3-IB-Ada">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="1" translatesAutoresizingMaskIntoConstraints="NO" id="Ise-vX-1Bd">
+                                <rect key="frame" x="216" y="477" width="147" height="29"/>
+                                <segments>
+                                    <segment title="AP"/>
+                                    <segment title="CP"/>
+                                    <segment title="H."/>
+                                </segments>
+                                <color key="tintColor" red="0.84741830579999999" green="0.7822236508" blue="0.18101338110000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </segmentedControl>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="1" translatesAutoresizingMaskIntoConstraints="NO" id="E8D-IU-P44">
+                                <rect key="frame" x="216" y="140" width="147" height="29"/>
+                                <segments>
+                                    <segment title="AP"/>
+                                    <segment title="CP"/>
+                                    <segment title="H."/>
+                                </segments>
+                                <color key="tintColor" red="0.84741830579999999" green="0.7822236508" blue="0.18101338110000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </segmentedControl>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="1" translatesAutoresizingMaskIntoConstraints="NO" id="eKe-Lx-9A7">
+                                <rect key="frame" x="216" y="203" width="147" height="29"/>
+                                <segments>
+                                    <segment title="AP"/>
+                                    <segment title="CP"/>
+                                    <segment title="H."/>
+                                </segments>
+                                <color key="tintColor" red="0.84741830579999999" green="0.7822236508" blue="0.18101338110000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </segmentedControl>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="1" translatesAutoresizingMaskIntoConstraints="NO" id="90r-Dc-Qv4">
+                                <rect key="frame" x="216" y="269" width="147" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="90r-Dc-Qv4" secondAttribute="height" multiplier="21:4" id="hsz-Xc-Rk1"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="AP"/>
+                                    <segment title="CP"/>
+                                    <segment title="H."/>
+                                </segments>
+                                <color key="tintColor" red="0.84741830579999999" green="0.7822236508" blue="0.18101338110000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </segmentedControl>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="1" translatesAutoresizingMaskIntoConstraints="NO" id="wVs-gw-Jh0">
+                                <rect key="frame" x="216" y="337" width="147" height="29"/>
+                                <segments>
+                                    <segment title="AP"/>
+                                    <segment title="CP"/>
+                                    <segment title="H."/>
+                                </segments>
+                                <color key="tintColor" red="0.84741830579999999" green="0.7822236508" blue="0.18101338110000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </segmentedControl>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="1" translatesAutoresizingMaskIntoConstraints="NO" id="7fR-31-bE3">
+                                <rect key="frame" x="216" y="404" width="147" height="29"/>
+                                <segments>
+                                    <segment title="AP"/>
+                                    <segment title="CP"/>
+                                    <segment title="H."/>
+                                </segments>
+                                <color key="tintColor" red="0.84741830579999999" green="0.7822236508" blue="0.18101338110000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </segmentedControl>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Class" textAlignment="center" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="hme-Dn-gro">
+                                <rect key="frame" x="16" y="82" width="192" height="30"/>
+                                <color key="tintColor" red="0.83137254900000002" green="0.68627450980000004" blue="0.2156862745" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="words" autocorrectionType="yes" spellCheckingType="no" returnKeyType="done"/>
+                                <connections>
+                                    <outlet property="delegate" destination="srW-aJ-xG9" id="9jg-WQ-ejL"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Class" textAlignment="center" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="hKM-eh-0Ji">
+                                <rect key="frame" x="16" y="139" width="192" height="30"/>
+                                <color key="tintColor" red="0.83137254900000002" green="0.68627450980000004" blue="0.2156862745" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="words" autocorrectionType="yes" spellCheckingType="no" returnKeyType="done"/>
+                                <connections>
+                                    <outlet property="delegate" destination="srW-aJ-xG9" id="s1v-2T-fJl"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Class" textAlignment="center" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="udi-mb-teB">
+                                <rect key="frame" x="16" y="202" width="192" height="30"/>
+                                <color key="tintColor" red="0.83137254900000002" green="0.68627450980000004" blue="0.2156862745" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="words" autocorrectionType="yes" spellCheckingType="no" returnKeyType="done"/>
+                                <connections>
+                                    <outlet property="delegate" destination="srW-aJ-xG9" id="DdG-mE-rwM"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Class" textAlignment="center" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="UOk-Iu-x8B">
+                                <rect key="frame" x="16" y="268" width="192" height="33"/>
+                                <color key="tintColor" red="0.83137254900000002" green="0.68627450980000004" blue="0.2156862745" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="words" autocorrectionType="yes" spellCheckingType="no" returnKeyType="done"/>
+                                <connections>
+                                    <outlet property="delegate" destination="srW-aJ-xG9" id="uAU-VO-ie8"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Class" textAlignment="center" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="k0L-i7-f4Z">
+                                <rect key="frame" x="16" y="336" width="192" height="30"/>
+                                <color key="tintColor" red="0.83137254900000002" green="0.68627450980000004" blue="0.2156862745" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="words" autocorrectionType="yes" spellCheckingType="no" returnKeyType="done"/>
+                                <connections>
+                                    <outlet property="delegate" destination="srW-aJ-xG9" id="ruK-f3-8Vr"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Class" textAlignment="center" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="g2r-sO-jOn">
+                                <rect key="frame" x="16" y="403" width="192" height="30"/>
+                                <color key="tintColor" red="0.83137254900000002" green="0.68627450980000004" blue="0.2156862745" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="words" autocorrectionType="yes" spellCheckingType="no" returnKeyType="done"/>
+                                <connections>
+                                    <outlet property="delegate" destination="srW-aJ-xG9" id="qyz-bB-Pa7"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Class" textAlignment="center" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="52E-Yw-ffy">
+                                <rect key="frame" x="16" y="476" width="192" height="30"/>
+                                <color key="tintColor" red="0.83137254900000002" green="0.68627450980000004" blue="0.2156862745" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="words" autocorrectionType="yes" spellCheckingType="no" returnKeyType="done"/>
+                                <connections>
+                                    <outlet property="delegate" destination="srW-aJ-xG9" id="Opn-8Q-Zee"/>
+                                </connections>
+                            </textField>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="1" translatesAutoresizingMaskIntoConstraints="NO" id="MVP-yd-oOU">
+                                <rect key="frame" x="216" y="83" width="147" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="147" id="2RG-nU-t30"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="AP"/>
+                                    <segment title="CP"/>
+                                    <segment title="H."/>
+                                </segments>
+                                <color key="tintColor" red="0.84741830579999999" green="0.7822236508" blue="0.18101338110000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </segmentedControl>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="7fR-31-bE3" firstAttribute="trailing" secondItem="Ise-vX-1Bd" secondAttribute="trailing" id="1E9-qH-551"/>
+                            <constraint firstItem="wVs-gw-Jh0" firstAttribute="top" secondItem="90r-Dc-Qv4" secondAttribute="bottom" constant="40" id="1eY-8Y-8c4"/>
+                            <constraint firstItem="hme-Dn-gro" firstAttribute="leading" secondItem="zd3-IB-Ada" secondAttribute="leadingMargin" id="1kS-Iy-vg1"/>
+                            <constraint firstItem="90r-Dc-Qv4" firstAttribute="leading" secondItem="UOk-Iu-x8B" secondAttribute="trailing" constant="8" symbolic="YES" id="1wE-5Z-x9n"/>
+                            <constraint firstItem="E8D-IU-P44" firstAttribute="leading" secondItem="eKe-Lx-9A7" secondAttribute="leading" id="2K5-2Q-ga7"/>
+                            <constraint firstItem="MVP-yd-oOU" firstAttribute="leading" secondItem="hme-Dn-gro" secondAttribute="trailing" constant="8" symbolic="YES" id="328-Yt-TVC"/>
+                            <constraint firstItem="g2r-sO-jOn" firstAttribute="top" secondItem="k0L-i7-f4Z" secondAttribute="bottom" constant="37" id="DGS-ol-2Td"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="MVP-yd-oOU" secondAttribute="trailing" constant="-4" id="FyS-bR-Aez"/>
+                            <constraint firstItem="hme-Dn-gro" firstAttribute="leading" secondItem="hKM-eh-0Ji" secondAttribute="leading" id="HMo-Xw-V8z"/>
+                            <constraint firstItem="hKM-eh-0Ji" firstAttribute="top" secondItem="hme-Dn-gro" secondAttribute="bottom" constant="27" id="HVv-31-iMi"/>
+                            <constraint firstItem="k0L-i7-f4Z" firstAttribute="leading" secondItem="g2r-sO-jOn" secondAttribute="leading" id="HXw-zv-ngD"/>
+                            <constraint firstItem="UOk-Iu-x8B" firstAttribute="top" secondItem="udi-mb-teB" secondAttribute="bottom" constant="36" id="JAd-mK-vaO"/>
+                            <constraint firstItem="udi-mb-teB" firstAttribute="centerY" secondItem="eKe-Lx-9A7" secondAttribute="centerY" id="Jsb-Tj-y0G"/>
+                            <constraint firstItem="eKe-Lx-9A7" firstAttribute="leading" secondItem="90r-Dc-Qv4" secondAttribute="leading" id="MIQ-xt-ax5"/>
+                            <constraint firstItem="wVs-gw-Jh0" firstAttribute="trailing" secondItem="7fR-31-bE3" secondAttribute="trailing" id="MXl-n1-hfK"/>
+                            <constraint firstItem="hKM-eh-0Ji" firstAttribute="centerY" secondItem="E8D-IU-P44" secondAttribute="centerY" id="QzR-SQ-56l"/>
+                            <constraint firstItem="eKe-Lx-9A7" firstAttribute="leading" secondItem="udi-mb-teB" secondAttribute="trailing" constant="8" symbolic="YES" id="RHx-aJ-peI"/>
+                            <constraint firstItem="hKM-eh-0Ji" firstAttribute="leading" secondItem="udi-mb-teB" secondAttribute="leading" id="U56-9b-FlE"/>
+                            <constraint firstItem="g2r-sO-jOn" firstAttribute="leading" secondItem="52E-Yw-ffy" secondAttribute="leading" id="V6d-tD-Nqe"/>
+                            <constraint firstItem="udi-mb-teB" firstAttribute="top" secondItem="hKM-eh-0Ji" secondAttribute="bottom" constant="33" id="VEH-Oe-Vp2"/>
+                            <constraint firstItem="wVs-gw-Jh0" firstAttribute="leading" secondItem="k0L-i7-f4Z" secondAttribute="trailing" constant="8" symbolic="YES" id="VQg-Fu-wwR"/>
+                            <constraint firstItem="52E-Yw-ffy" firstAttribute="top" secondItem="g2r-sO-jOn" secondAttribute="bottom" constant="43" id="XE0-py-3uP"/>
+                            <constraint firstItem="eKe-Lx-9A7" firstAttribute="trailing" secondItem="90r-Dc-Qv4" secondAttribute="trailing" id="YEl-zu-ebc"/>
+                            <constraint firstItem="90r-Dc-Qv4" firstAttribute="top" secondItem="eKe-Lx-9A7" secondAttribute="bottom" constant="38" id="ZDc-MU-8BF"/>
+                            <constraint firstItem="hme-Dn-gro" firstAttribute="centerY" secondItem="MVP-yd-oOU" secondAttribute="centerY" id="ZhF-nR-jl1"/>
+                            <constraint firstItem="MVP-yd-oOU" firstAttribute="trailing" secondItem="E8D-IU-P44" secondAttribute="trailing" id="adj-SX-Cfb"/>
+                            <constraint firstItem="Ise-vX-1Bd" firstAttribute="leading" secondItem="52E-Yw-ffy" secondAttribute="trailing" constant="8" symbolic="YES" id="bEh-yP-pDE"/>
+                            <constraint firstItem="90r-Dc-Qv4" firstAttribute="trailing" secondItem="wVs-gw-Jh0" secondAttribute="trailing" id="bYo-CE-Uxg"/>
+                            <constraint firstItem="k0L-i7-f4Z" firstAttribute="top" secondItem="UOk-Iu-x8B" secondAttribute="bottom" constant="35" id="dMC-Og-Yze"/>
+                            <constraint firstItem="g2r-sO-jOn" firstAttribute="centerY" secondItem="7fR-31-bE3" secondAttribute="centerY" id="deG-jk-MMk"/>
+                            <constraint firstItem="MVP-yd-oOU" firstAttribute="leading" secondItem="E8D-IU-P44" secondAttribute="leading" id="e7s-qW-Yqa"/>
+                            <constraint firstItem="udi-mb-teB" firstAttribute="leading" secondItem="UOk-Iu-x8B" secondAttribute="leading" id="gbc-U3-ajt"/>
+                            <constraint firstItem="hme-Dn-gro" firstAttribute="top" secondItem="veR-jt-28z" secondAttribute="bottom" constant="18" id="hxy-Fo-A8d"/>
+                            <constraint firstItem="7fR-31-bE3" firstAttribute="leading" secondItem="Ise-vX-1Bd" secondAttribute="leading" id="kpR-Zb-K1j"/>
+                            <constraint firstItem="UOk-Iu-x8B" firstAttribute="leading" secondItem="k0L-i7-f4Z" secondAttribute="leading" id="oCJ-2Y-lV8"/>
+                            <constraint firstItem="52E-Yw-ffy" firstAttribute="centerY" secondItem="Ise-vX-1Bd" secondAttribute="centerY" id="pXZ-5z-Sb2"/>
+                            <constraint firstItem="E8D-IU-P44" firstAttribute="trailing" secondItem="eKe-Lx-9A7" secondAttribute="trailing" id="qIu-Pt-yrb"/>
+                            <constraint firstItem="k0L-i7-f4Z" firstAttribute="centerY" secondItem="wVs-gw-Jh0" secondAttribute="centerY" id="qO1-H8-mSB"/>
+                            <constraint firstItem="90r-Dc-Qv4" firstAttribute="leading" secondItem="wVs-gw-Jh0" secondAttribute="leading" id="u1f-20-74N"/>
+                            <constraint firstItem="7fR-31-bE3" firstAttribute="leading" secondItem="g2r-sO-jOn" secondAttribute="trailing" constant="8" symbolic="YES" id="van-uc-bCC"/>
+                            <constraint firstItem="E8D-IU-P44" firstAttribute="leading" secondItem="hKM-eh-0Ji" secondAttribute="trailing" constant="8" symbolic="YES" id="w1t-fF-jRY"/>
+                            <constraint firstItem="wVs-gw-Jh0" firstAttribute="leading" secondItem="7fR-31-bE3" secondAttribute="leading" id="w3a-HC-k6j"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="mpM-vN-mVs" appends="YES" id="42d-EA-A45"/>
+                        </connections>
+                    </view>
+                    <navigationItem key="navigationItem" title="Edit Classes" id="5Dv-qN-bL2">
+                        <barButtonItem key="leftBarButtonItem" title="Save" id="miH-4L-MqX">
+                            <color key="tintColor" red="0.83137254900000002" green="0.68627450980000004" blue="0.2156862745" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="save:" destination="srW-aJ-xG9" id="ZFy-Kj-BDb"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="sg1" destination="MVP-yd-oOU" id="Hpf-Qu-oYF"/>
+                        <outlet property="sg2" destination="E8D-IU-P44" id="TZh-qJ-BZc"/>
+                        <outlet property="sg3" destination="eKe-Lx-9A7" id="XWd-uP-V58"/>
+                        <outlet property="sg4" destination="90r-Dc-Qv4" id="glX-Df-R4A"/>
+                        <outlet property="sg5" destination="wVs-gw-Jh0" id="fXi-A7-WkW"/>
+                        <outlet property="sg6" destination="7fR-31-bE3" id="c5Q-8O-QGh"/>
+                        <outlet property="sg7" destination="Ise-vX-1Bd" id="GUX-PP-w6u"/>
+                        <outlet property="textField1" destination="hme-Dn-gro" id="I8L-AD-qc8"/>
+                        <outlet property="textField2" destination="hKM-eh-0Ji" id="BJW-cT-9jk"/>
+                        <outlet property="textField3" destination="udi-mb-teB" id="dz0-ba-0KQ"/>
+                        <outlet property="textField4" destination="UOk-Iu-x8B" id="h7p-QH-YiC"/>
+                        <outlet property="textField5" destination="k0L-i7-f4Z" id="8KT-v0-Gsy"/>
+                        <outlet property="textField6" destination="g2r-sO-jOn" id="hte-Ph-uBt"/>
+                        <outlet property="textField7" destination="52E-Yw-ffy" id="OnD-R7-CYl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="E8q-q7-rjB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="mpM-vN-mVs">
+                    <connections>
+                        <action selector="tap:" destination="srW-aJ-xG9" id="T1d-hR-8i9"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="2688.8000000000002" y="-716.49175412293857"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="WBv-5m-T01">
+            <objects>
+                <viewController id="u5J-RZ-6aG" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="eq0-TW-inz"/>
+                        <viewControllerLayoutGuide type="bottom" id="EKQ-Ck-3kM"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="S2n-50-g25">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lTE-gN-02f" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3511" y="-797"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="rW0-Sm-cHY">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="r26-mn-eKh" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="siO-zN-7IN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="srW-aJ-xG9" kind="relationship" relationship="rootViewController" id="gbq-ud-MaC"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RVr-gK-tZ2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1749.5999999999999" y="-716.49175412293857"/>
+        </scene>
+    </scenes>
+</document>
